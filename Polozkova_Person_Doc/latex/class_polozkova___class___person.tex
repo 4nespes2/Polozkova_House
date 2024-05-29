@@ -1,0 +1,121 @@
+\hypertarget{class_polozkova___class___person}{\section{Класс Polozkova\+\_\+\+Class\+\_\+\+Person}
+\label{class_polozkova___class___person}\index{Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}}
+}
+
+
+Класс описания персоны  
+
+
+
+
+{\ttfamily \#include $<$Polozkova\+\_\+\+Class\+\_\+\+House.\+h$>$}
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_polozkova___class___person_a116523b08dcffdf8a65b77cc89f01163}{Polozkova\+\_\+\+Class\+\_\+\+Person} (void)
+\begin{DoxyCompactList}\small\item\em Конструктор по умолчанию \end{DoxyCompactList}\item 
+\hyperlink{class_polozkova___class___person_aa6400f3b0873599b385f29103f671f8d}{Polozkova\+\_\+\+Class\+\_\+\+Person} (char $\ast$fio, int age, char $\ast$addr)
+\begin{DoxyCompactList}\small\item\em Конструктор с заполнением полей класса \end{DoxyCompactList}\item 
+\hypertarget{class_polozkova___class___person_a3d28a97e97d0e04ceb8a92dc6c908187}{\hyperlink{class_polozkova___class___person_a3d28a97e97d0e04ceb8a92dc6c908187}{$\sim$\+Polozkova\+\_\+\+Class\+\_\+\+Person} (void)}\label{class_polozkova___class___person_a3d28a97e97d0e04ceb8a92dc6c908187}
+
+\begin{DoxyCompactList}\small\item\em Деструктор освобождает ресурсы \end{DoxyCompactList}\item 
+char $\ast$ \hyperlink{class_polozkova___class___person_ad6687da4afac6e02d3a2f31660997548}{get\+Full\+Info} ()
+\begin{DoxyCompactList}\small\item\em Возвращает полную информацию о персоне \end{DoxyCompactList}\item 
+bool \hyperlink{class_polozkova___class___person_a694af5d08c95cd7b3ee3faf5250ef0a9}{change\+Addr} (char $\ast$new\+Addr)
+\begin{DoxyCompactList}\small\item\em Изменяет адрес персоны \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_polozkova___class___person_a8c4d8a3a01398787b503ea1801300b50}{char $\ast$ \hyperlink{class_polozkova___class___person_a8c4d8a3a01398787b503ea1801300b50}{\+\_\+fio}}\label{class_polozkova___class___person_a8c4d8a3a01398787b503ea1801300b50}
+
+\begin{DoxyCompactList}\small\item\em ФИО персоны \end{DoxyCompactList}\item 
+\hypertarget{class_polozkova___class___person_a238ba5b6acd075939966985901f33ea4}{int $\ast$ \hyperlink{class_polozkova___class___person_a238ba5b6acd075939966985901f33ea4}{\+\_\+age}}\label{class_polozkova___class___person_a238ba5b6acd075939966985901f33ea4}
+
+\begin{DoxyCompactList}\small\item\em возраст \end{DoxyCompactList}\item 
+\hypertarget{class_polozkova___class___person_adeb5a583e474d924e0a1596ac5cf5580}{char $\ast$ \hyperlink{class_polozkova___class___person_adeb5a583e474d924e0a1596ac5cf5580}{\+\_\+addr}}\label{class_polozkova___class___person_adeb5a583e474d924e0a1596ac5cf5580}
+
+\begin{DoxyCompactList}\small\item\em адрес в произвольном формате \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Класс описания персоны 
+
+Содержит данные персоны и методы для работы с ними 
+
+\subsection{Конструктор(ы)}
+\hypertarget{class_polozkova___class___person_a116523b08dcffdf8a65b77cc89f01163}{\index{Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}!Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}}
+\index{Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}!Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}}
+\subsubsection[{Polozkova\+\_\+\+Class\+\_\+\+Person}]{\setlength{\rightskip}{0pt plus 5cm}Polozkova\+\_\+\+Class\+\_\+\+Person\+::\+Polozkova\+\_\+\+Class\+\_\+\+Person (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_polozkova___class___person_a116523b08dcffdf8a65b77cc89f01163}
+
+
+Конструктор по умолчанию 
+
+Создает персону без инициализации полей \hypertarget{class_polozkova___class___person_aa6400f3b0873599b385f29103f671f8d}{\index{Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}!Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}}
+\index{Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}!Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}}
+\subsubsection[{Polozkova\+\_\+\+Class\+\_\+\+Person}]{\setlength{\rightskip}{0pt plus 5cm}Polozkova\+\_\+\+Class\+\_\+\+Person\+::\+Polozkova\+\_\+\+Class\+\_\+\+Person (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{fio, }
+\item[{int}]{age, }
+\item[{char $\ast$}]{addr}
+\end{DoxyParamCaption}
+)}}\label{class_polozkova___class___person_aa6400f3b0873599b385f29103f671f8d}
+
+
+Конструктор с заполнением полей класса 
+
+Создает персону и инициализирует ее поля 
+\begin{DoxyParams}{Аргументы}
+{\em fio} & ФИО создаваемой персоны \\
+\hline
+{\em age} & возраст создаваемой персоны \\
+\hline
+{\em addr} & адрес создаваемой персоны \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Методы}
+\hypertarget{class_polozkova___class___person_a694af5d08c95cd7b3ee3faf5250ef0a9}{\index{Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}!change\+Addr@{change\+Addr}}
+\index{change\+Addr@{change\+Addr}!Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}}
+\subsubsection[{change\+Addr}]{\setlength{\rightskip}{0pt plus 5cm}bool Polozkova\+\_\+\+Class\+\_\+\+Person\+::change\+Addr (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{new\+Addr}
+\end{DoxyParamCaption}
+)}}\label{class_polozkova___class___person_a694af5d08c95cd7b3ee3faf5250ef0a9}
+
+
+Изменяет адрес персоны 
+
+Перед изменением проверяет формат строки с адресом (код, город, улица, дом-\/корпус-\/номер) 
+\begin{DoxyParams}{Аргументы}
+{\em new\+Addr} & новый адрес персоны \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+успешность выполнения действия 
+\end{DoxyReturn}
+\hypertarget{class_polozkova___class___person_ad6687da4afac6e02d3a2f31660997548}{\index{Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}!get\+Full\+Info@{get\+Full\+Info}}
+\index{get\+Full\+Info@{get\+Full\+Info}!Polozkova\+\_\+\+Class\+\_\+\+Person@{Polozkova\+\_\+\+Class\+\_\+\+Person}}
+\subsubsection[{get\+Full\+Info}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ Polozkova\+\_\+\+Class\+\_\+\+Person\+::get\+Full\+Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_polozkova___class___person_ad6687da4afac6e02d3a2f31660997548}
+
+
+Возвращает полную информацию о персоне 
+
+Если сведений нет, то возвращает сообщение об ошибке \begin{DoxyReturn}{Возвращает}
+строку с данными о персоне в формате (ФИО, возраст, адрес) 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/ппо всё/\+Polozkova\+\_\+\+Person/\+Polozkova\+\_\+\+Person/Polozkova\+\_\+\+Class\+\_\+\+House.\+h\item 
+E\+:/ппо всё/\+Polozkova\+\_\+\+Person/\+Polozkova\+\_\+\+Person/Polozkova\+\_\+\+Class\+\_\+\+House.\+cpp\end{DoxyCompactItemize}
